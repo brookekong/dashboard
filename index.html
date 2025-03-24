@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inclusion Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Distributors</h2>
+            <ul>
+                <li class="active">Universal Pictures</li>
+                <li>Sony Pictures</li>
+                <li>Warner Bros.</li>
+                <li>20th Century Studios</li>
+                <!-- Add more as needed -->
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Distributor Diversity Dashboard | Film 2023</h1>
+            </header>
+
+            <section class="highlights">
+                <div class="card">
+                    <h3>Total 2023 Films</h3>
+                    <p class="value">90</p>
+                </div>
+                <div class="card">
+                    <h3>Women in BTS Roles</h3>
+                    <p class="value">367</p>
+                </div>
+                <div class="card">
+                    <h3>Underrepresented in BTS Roles</h3>
+                    <p class="value">156</p>
+                </div>
+                <div class="card">
+                    <h3>Inclusion Score</h3>
+                    <p class="value">24 / 30</p>
+                </div>
+            </section>
+
+            <section class="charts">
+                <div class="chart-card">
+                    <canvas id="lineChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <canvas id="barChartGender"></canvas>
+                </div>
+            </section>
+
+            <section class="charts">
+                <div class="chart-card">
+                    <canvas id="donutChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <canvas id="barChartDept"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

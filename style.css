@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "National 2";
+    src: url("./fonts/National2-Regular.woff2") format("woff2"),
+         url("./fonts/National2-Regular.otf") format("opentype"); /* Fallback */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'National/National2-Regular.otf', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    flex: 1;
+}
+
+.card .value {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.chart-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 300px;
+}

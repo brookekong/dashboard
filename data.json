@@ -1,0 +1,26 @@
+{
+    "Universal Pictures": {
+        "totalFilms": 90,
+        "womenBTS": 367,
+        "underrepresentedBTS": 156,
+        "inclusionScore": "24 / 30",
+        "genderChart": [75, 70, 65, 25, 30, 35],
+        "racialChart": [380, 46],
+        "overtimeChart": {
+            "white": [80, 75, 70, 68, 65, 60],
+            "underrepresented": [20, 25, 30, 32, 35, 40]
+        }
+    },
+    "Sony Pictures": {
+        "totalFilms": 85,
+        "womenBTS": 345,
+        "underrepresentedBTS": 140,
+        "inclusionScore": "22 / 30",
+        "genderChart": [78, 68, 63, 22, 32, 37],
+        "racialChart": [390, 60],
+        "overtimeChart": {
+            "white": [82, 77, 72, 70, 66, 62],
+            "underrepresented": [18, 23, 28, 30, 34, 38]
+        }
+    }
+}
