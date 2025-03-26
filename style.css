@@ -1,7 +1,7 @@
 @font-face {
     font-family: "National 2";
-    src: url("./fonts/National2-Regular.woff2") format("woff2"),
-         url("./fonts/National2-Regular.otf") format("opentype"); /* Fallback */
+    src: url(".National/National2-Bold.otf") format("otf"),
+         url(".National/National2-Regular.otf") format("otf");
     font-weight: normal;
     font-style: normal;
 }
@@ -15,6 +15,10 @@ body {
 
 .container {
     display: flex;
+}
+
+hr {
+    color: lightgray;
 }
 
 .sidebar {
@@ -51,27 +55,51 @@ body {
     padding: 20px;
 }
 
-header h1 {
+.main_header {
+    display: flex;
+    align-items: center;
+}
+
+.main_header h1 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
+    margin-right: 15px
+}
+
+.main_header p {
+    color: gray;
+    font-weight: 100;
 }
 
 .highlights {
     display: flex;
     gap: 15px;
     margin-bottom: 30px;
+    padding-top: 10px;
 }
 
-.card {
-    background-color: #fff;
+.highlights h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card1, .card2 {
     padding: 15px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     flex: 1;
 }
 
-.card .value {
-    font-size: 22px;
+.card1 {
+    background-color: #F0B4A9;
+}
+
+.card2 {
+    background-color: #F8C893;
+}
+
+.card1 .value, .card2 .value {
+    font-size: 28px;
     font-weight: bold;
     margin-top: 5px;
 }
@@ -89,4 +117,12 @@ header h1 {
     border-radius: 8px;
     flex: 1;
     min-width: 300px;
+}
+
+.aii_logo {
+    width: 200px;
+}
+
+#racialPieChart {
+    width: 50px; 
 }

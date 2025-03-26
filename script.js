@@ -34,12 +34,12 @@ new Chart(document.getElementById("barChartGender"), {
         datasets: [
             {
                 label: "Men",
-                backgroundColor: "#8e24aa",
+                backgroundColor: "#990000",
                 data: [75, 70, 65]
             },
             {
                 label: "Women",
-                backgroundColor: "#f06292",
+                backgroundColor: "#FFCC00",
                 data: [25, 30, 35]
             }
         ]
@@ -80,12 +80,12 @@ new Chart(document.getElementById("barChartDept"), {
         datasets: [
             {
                 label: "Universal",
-                backgroundColor: "#ef5350",
+                backgroundColor: "#DA4328",
                 data: [40, 45, 50, 60, 55, 58]
             },
             {
                 label: "Industry-Wide",
-                backgroundColor: "#ffa726",
+                backgroundColor: "#F08F23",
                 data: [38, 42, 47, 50, 52, 53]
             }
         ]
