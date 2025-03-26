@@ -1,26 +1,242 @@
 {
     "Universal Pictures": {
-        "totalFilms": 90,
-        "womenBTS": 367,
-        "underrepresentedBTS": 156,
-        "inclusionScore": "24 / 30",
-        "genderChart": [75, 70, 65, 25, 30, 35],
-        "racialChart": [380, 46],
-        "overtimeChart": {
-            "white": [80, 75, 70, 68, 65, 60],
-            "underrepresented": [20, 25, 30, 32, 35, 40]
-        }
+      "totalFilms": 90,
+      "womenBTS": 367,
+      "underrepresentedBTS": 156,
+      "inclusionScore": "24 / 30",
+      "genderChart": [75, 70, 65, 25, 30, 35],
+      "racialChart": [380, 46],
+      "overtimeChart": {
+        "white": [80, 75, 70, 68, 65, 60],
+        "underrepresented": [20, 25, 30, 32, 35, 40]
+      },
+      "genderLineChart": {
+        "menBTS": [560, 520, 490, 560, 520, 560],
+        "womenBTS": [100, 210, 150, 180, 240, 150]
+      }
     },
     "Sony Pictures": {
-        "totalFilms": 85,
-        "womenBTS": 345,
-        "underrepresentedBTS": 140,
-        "inclusionScore": "22 / 30",
-        "genderChart": [78, 68, 63, 22, 32, 37],
-        "racialChart": [390, 60],
+      "totalFilms": 85,
+      "womenBTS": 345,
+      "underrepresentedBTS": 140,
+      "inclusionScore": "22 / 30",
+      "genderChart": [78, 68, 63, 22, 32, 37],
+      "racialChart": [390, 60],
+      "overtimeChart": {
+        "white": [82, 77, 72, 70, 66, 62],
+        "underrepresented": [18, 23, 28, 30, 34, 38]
+      },
+      "genderLineChart": {
+        "menBTS": [470, 450, 490, 510, 450, 500],
+        "womenBTS": [180, 200, 140, 210, 120, 130]
+      }
+    },
+    "Warner Bros.": {
+      "totalFilms": 110,
+      "womenBTS": 430,
+      "underrepresentedBTS": 150,
+      "inclusionScore": "25 / 30",
+      "genderChart": [80, 75, 70, 30, 35, 40],
+      "racialChart": [400, 50],
+      "overtimeChart": {
+        "white": [85, 80, 75, 73, 70, 65],
+        "underrepresented": [15, 20, 25, 27, 30, 35]
+      },
+      "genderLineChart": {
+        "menBTS": [650, 620, 600, 580, 620, 670],
+        "womenBTS": [220, 230, 240, 250, 260, 270]
+      }
+    },
+    "20th Century Studios": {
+      "totalFilms": 80,
+      "womenBTS": 350,
+      "underrepresentedBTS": 130,
+      "inclusionScore": "21 / 30",
+      "genderChart": [74, 69, 64, 23, 28, 33],
+      "racialChart": [360, 70],
+      "overtimeChart": {
+        "white": [83, 78, 73, 71, 68, 63],
+        "underrepresented": [17, 22, 27, 29, 32, 37]
+      },
+      "genderLineChart": {
+        "menBTS": [500, 460, 540, 490, 500, 580],
+        "womenBTS": [210, 200, 175, 200, 225, 210]
+      }
+    },
+    "Walt Disney Studios": {
+      "totalFilms": 100,
+      "womenBTS": 400,
+      "underrepresentedBTS": 140,
+      "inclusionScore": "26 / 30",
+      "genderChart": [76, 72, 68, 30, 32, 38],
+      "racialChart": [380, 70],
+      "overtimeChart": {
+        "white": [80, 76, 72, 70, 68, 65],
+        "underrepresented": [20, 24, 28, 30, 32, 35]
+      },
+      "genderLineChart": {
+        "menBTS": [600, 580, 550, 600, 620, 650],
+        "womenBTS": [300, 320, 350, 330, 310, 300]
+      }
+    },
+    "Lionsgate": {
+      "totalFilms": 70,
+      "womenBTS": 300,
+      "underrepresentedBTS": 110,
+      "inclusionScore": "20 / 30",
+      "genderChart": [76, 71, 66, 24, 29, 34],
+      "racialChart": [350, 80],
+      "overtimeChart": {
+        "white": [81, 76, 71, 69, 66, 62],
+        "underrepresented": [19, 24, 29, 31, 34, 38]
+      },
+      "genderLineChart": {
+        "menBTS": [470, 490, 510, 500, 495, 470],
+        "womenBTS": [480, 490, 475, 410, 420, 480]
+      }
+    },
+    "Paramount Pictures": {
+      "totalFilms": 75,
+      "womenBTS": 310,
+      "underrepresentedBTS": 120,
+      "inclusionScore": "23 / 30",
+      "genderChart": [72, 67, 62, 27, 32, 36],
+      "racialChart": [370, 60],
+      "overtimeChart": {
+        "white": [79, 74, 69, 67, 64, 61],
+        "underrepresented": [21, 26, 31, 33, 36, 39]
+      },
+      "genderLineChart": {
+        "menBTS": [480, 500, 420, 540, 460, 580],
+        "womenBTS": [190, 160, 210, 120, 230, 200]
+      }
+    },
+    "A24": {
+      "totalFilms": 50,
+      "womenBTS": 200,
+      "underrepresentedBTS": 75,
+      "inclusionScore": "21 / 30",
+      "genderChart": [70, 65, 60, 20, 25, 30],
+      "racialChart": [350, 85],
+      "overtimeChart": {
+        "white": [80, 75, 70, 68, 65, 60],
+        "underrepresented": [20, 25, 30, 32, 35, 40]
+      },
+      "genderLineChart": {
+        "menBTS": [350, 370, 420, 450, 460, 470],
+        "womenBTS": [50, 80, 60, 70, 80, 90]
+      }
+    },
+    "Neon": {
+      "totalFilms": 40,
+      "womenBTS": 160,
+      "underrepresentedBTS": 65,
+      "inclusionScore": "19 / 30",
+      "genderChart": [70, 65, 60, 25, 30, 35],
+      "racialChart": [330, 90],
+      "overtimeChart": {
+        "white": [80, 75, 70, 68, 66, 60],
+        "underrepresented": [20, 25, 30, 32, 34, 40]
+      },
+      "genderLineChart": {
+        "menBTS": [380, 390, 420, 430, 460, 480],
+        "womenBTS": [60, 70, 80, 90, 85, 100]
+      }
+    },
+    "Metro-Golwyn-Mayer": {
+      "totalFilms": 60,
+      "womenBTS": 250,
+      "underrepresentedBTS": 100,
+      "inclusionScore": "18 / 30",
+      "genderChart": [72, 68, 62, 20, 25, 30],
+      "racialChart": [300, 120],
+      "overtimeChart": {
+        "white": [85, 80, 75, 72, 68, 60],
+        "underrepresented": [15, 20, 25, 28, 32, 35]
+      },
+      "genderLineChart": {
+        "menBTS": [400, 380, 420, 450, 470, 500],
+        "womenBTS": [50, 60, 60, 40, 40, 60]
+      }
+    },
+    "Bleecker Street Media": {
+      "totalFilms": 45,
+      "womenBTS": 180,
+      "underrepresentedBTS": 50,
+      "inclusionScore": "17 / 30",
+      "genderChart": [75, 70, 65, 22, 28, 33],
+      "racialChart": [280, 60],
+      "overtimeChart": {
+        "white": [80, 75, 70, 68, 65, 60],
+        "underrepresented": [20, 25, 30, 32, 35, 40]
+      },
+      "genderLineChart": {
+        "menBTS": [350, 340, 380, 420, 430, 460],
+        "womenBTS": [50, 60, 60, 50, 50, 60]
+      }
+    },
+    "Roadside Attractions": {
+      "totalFilms": 55,
+      "womenBTS": 210,
+      "underrepresentedBTS": 75,
+      "inclusionScore": "20 / 30",
+      "genderChart": [72, 66, 60, 28, 33, 35],
+      "racialChart": [310, 90],
+      "overtimeChart": {
+        "white": [80, 75, 70, 69, 65, 62],
+        "underrepresented": [20, 25, 30, 32, 35, 38]
+      },
+      "genderLineChart": {
+        "menBTS": [380, 400, 430, 460, 490, 510],
+        "womenBTS": [40, 60, 70, 80, 90, 100]
+      }
+    },
+    "STX Entertainment": {
+      "totalFilms": 60,
+      "womenBTS": 220,
+      "underrepresentedBTS": 85,
+      "inclusionScore": "21 / 30",
+      "genderChart": [78, 73, 67, 20, 30, 35],
+      "racialChart": [360, 70],
+      "overtimeChart": {
+        "white": [82, 77, 74, 70, 65, 60],
+        "underrepresented": [18, 23, 28, 30, 35, 40]
+      },
+      "genderLineChart": {
+        "menBTS": [470, 490, 520, 550, 580, 600],
+        "womenBTS": [150, 160, 140, 180, 200, 220]
+      }
+    },
+    "IFC Films": {
+        "totalFilms": 45,
+        "womenBTS": 170,
+        "underrepresentedBTS": 60,
+        "inclusionScore": "19 / 30",
+        "genderChart": [70, 65, 60, 22, 28, 32],
+        "racialChart": [310, 85],
         "overtimeChart": {
-            "white": [82, 77, 72, 70, 66, 62],
-            "underrepresented": [18, 23, 28, 30, 34, 38]
+          "white": [80, 75, 70, 68, 65, 60],
+          "underrepresented": [20, 25, 30, 32, 35, 40]
+        },
+        "genderLineChart": {
+          "menBTS": [350, 370, 380, 400, 420, 440],
+          "womenBTS": [100, 110, 120, 130, 140, 150]
+        }
+    },
+        "Open Road Films": {
+        "totalFilms": 50,
+        "womenBTS": 180,
+        "underrepresentedBTS": 70,
+        "inclusionScore": "19 / 30",
+        "genderChart": [74, 68, 63, 24, 30, 34],
+        "racialChart": [310, 85],
+        "overtimeChart": {
+        "white": [80, 76, 71, 69, 67, 63],
+        "underrepresented": [20, 24, 29, 31, 33, 37]
+        },
+        "genderLineChart": {
+        "menBTS": [360, 380, 400, 420, 440, 460],
+        "womenBTS": [50, 70, 80, 90, 100, 120]
         }
     }
 }
